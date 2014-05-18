@@ -1,0 +1,11 @@
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\LCServer.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\LCServer.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\AustinHarris.JsonRpc.AspNet.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\AustinHarris.JsonRpc.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\AustinHarris.JsonRpc.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\AustinHarris.JsonRpc.AspNet.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Debug\LCServer.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Debug\LCServer.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Debug\LCServer.pdb
