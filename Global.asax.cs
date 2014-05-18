@@ -6,13 +6,11 @@ using System.Web.Security;
 using System.Web.SessionState;
 using AustinHarris.JsonRpc;
 
-namespace LCServer.App_Code
+namespace LCServer
 {
-    namespace LiangChen
+    public class Global : System.Web.HttpApplication
     {
-        public class Global : System.Web.HttpApplication
-        {
-            static LCJsonRPCServer testService = new LCJsonRPCServer();
-        }
+        static LCJsonRPCServer testService = new LCJsonRPCServer();
     }
+
 }
