@@ -44,10 +44,16 @@
     <Reference Include="AustinHarris.JsonRpc.AspNet">
       <HintPath>..\packages\AustinHarris.JsonRpc.AspNet.1.0.2.0\lib\net40\AustinHarris.JsonRpc.AspNet.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,17 +73,58 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LCDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LCDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LCDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LCDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LCDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LCDB.edmx</DependentUpon>
+    </Compile>
     <Compile Include="LCJsonRPCServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs">
+      <DependentUpon>LCDB.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <EntityDeploy Include="LCDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LCDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="LCDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LCDB.edmx</DependentUpon>
+      <LastGenOutput>LCDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="LCDB.edmx.diagram">
+      <DependentUpon>LCDB.edmx</DependentUpon>
+    </Content>
+    <Content Include="LCDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LCDB.edmx</DependentUpon>
+      <LastGenOutput>LCDB.cs</LastGenOutput>
+    </Content>
+    <None Include="Properties\PublishProfiles\Azure.pubxml" />
+    <None Include="Properties\PublishProfiles\liangchen - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\liangchen - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\localhost.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -87,6 +134,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Code\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

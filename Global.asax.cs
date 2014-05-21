@@ -10,7 +10,11 @@ namespace LCServer
 {
     public class Global : System.Web.HttpApplication
     {
-        static LCJsonRPCServer testService = new LCJsonRPCServer();
+        static LCJsonRPCServer service;// = new LCJsonRPCServer();
+        protected void Application_Start(object sender, EventArgs e)
+        {
+            service = new LCJsonRPCServer();
+        }
     }
 
 }

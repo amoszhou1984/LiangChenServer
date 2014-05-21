@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LCDBEntities-Web.config Connection String" description="LCDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/LCDB.csdl|res://*/LCDB.ssdl|res://*/LCDB.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=tukzvy4yls.database.windows.net;initial catalog=LIANGCHEN;user id=liangchen@tukzvy4yls;password=1iangApp;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrator\\documents\\visual\ studio\ 2012\\Projects\\LCServer\\LCServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LCDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

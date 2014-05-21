@@ -6,8 +6,8 @@ c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\b
 c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\AustinHarris.JsonRpc.pdb
 c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\AustinHarris.JsonRpc.AspNet.pdb
 c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\Newtonsoft.Json.xml
-c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Debug\LCServer.csprojResolveAssemblyReference.cache
-c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Debug\LCServer.dll
-c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Debug\LCServer.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Release\LCServer.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Release\LCServer.dll
+c:\users\administrator\documents\visual studio 2012\Projects\LCServer\LCServer\obj\Release\LCServer.pdb
 C:\Users\Administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\EntityFramework.dll
 C:\Users\Administrator\documents\visual studio 2012\Projects\LCServer\LCServer\bin\EntityFramework.xml
